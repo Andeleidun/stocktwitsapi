@@ -1,24 +1,33 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+
+import AppBar from '@material-ui/core/AppBar';
+import Toolbar from '@material-ui/core/Toolbar';
+import Typography from '@material-ui/core/Typography';
+
+class Header extends React.Component {
+  render() {
+    return (
+      <header className="app-header">
+        <AppBar position="static">
+          <Toolbar className="title-bar">
+            <Typography variant="h1">
+              StockTwits Live Feed
+            </Typography>
+          </Toolbar>
+        </AppBar>
+      </header>
+    );
+  }
+}
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Header />
+      <main className="app-main">
+        
+      </main>
     </div>
   );
 }
