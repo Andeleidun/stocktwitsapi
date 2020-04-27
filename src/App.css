@@ -98,4 +98,8 @@
   .app-main .tweets {
     width: 90%;
   }
+
+  .app-main .tweets .picture {
+    justify-content: left;
+  }
 }
