@@ -100,6 +100,6 @@
   }
 
   .app-main .tweets .picture {
-    justify-content: left;
+    justify-content: end;
   }
 }
