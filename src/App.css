@@ -5,7 +5,7 @@
 
 .app-header .MuiAppBar-colorPrimary {
   background-color: #40576F;
-  height: 10vh;
+  min-height: 10vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -13,12 +13,18 @@
   color: white;
 }
 
+.app-header .MuiTypography-h1 {
+  font-size: calc(10px + 6vmin);
+} 
+
 .app-main .search {
-  margin-bottom: 20px;
+  margin: 10px 0 20px;
 }
 
 .app-main .search .stock-input {
   margin: 5px;
+  width: 20%;
+  min-width: 220px;
 }
 
 .app-main .search .search-button {
@@ -31,14 +37,18 @@
   color: #40576F;
 }
 
-.app-main .chips .chip {
-  background-color: #40576F;
-  color: white;
+.app-main .chips .badge {
   margin: 10px;
 }
 
+.app-main .chips .chip {
+  background-color: #40576F;
+  color: white;
+  margin: 5px;
+}
+
 .app-main .tweets {
-  width: 50%;
+  width: 60%;
   margin: 0 auto;
 }
 
@@ -52,7 +62,7 @@
   grid-template-areas: 
     'picture namearea'
     'picture text';
-  grid-template-columns: 10% 90%;
+  grid-template-columns: 20% 80%;
 }
 
 .app-main .tweets .picture {
@@ -75,4 +85,17 @@
 
 .app-main .tweets .text {
   grid-area: text;
+}
+
+
+@media only screen and (max-width: 960px) {
+  .app-main .tweets {
+    width: 75%;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .app-main .tweets {
+    width: 90%;
+  }
 }
