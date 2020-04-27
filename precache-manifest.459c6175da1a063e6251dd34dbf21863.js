@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "63089e5e4b4e5d39db95974ade4fd7eb",
+    "revision": "7caca6ffa557b5a8352457b5336bbf5a",
     "url": "/stocktwitsapi/index.html"
   },
   {
-    "revision": "434af14725ac1a9d1acf",
-    "url": "/stocktwitsapi/static/css/main.cddd883a.chunk.css"
+    "revision": "9dd3825321e55edde957",
+    "url": "/stocktwitsapi/static/css/main.34b5f1b8.chunk.css"
   },
   {
     "revision": "6f3943a8768e84649599",
@@ -16,7 +16,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/stocktwitsapi/static/js/2.e2e7b589.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "434af14725ac1a9d1acf",
+    "revision": "9dd3825321e55edde957",
     "url": "/stocktwitsapi/static/js/main.49e1872c.chunk.js"
   },
   {

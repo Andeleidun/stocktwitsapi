@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/stocktwitsapi/static/css/main.cddd883a.chunk.css",
+    "main.css": "/stocktwitsapi/static/css/main.34b5f1b8.chunk.css",
     "main.js": "/stocktwitsapi/static/js/main.49e1872c.chunk.js",
     "main.js.map": "/stocktwitsapi/static/js/main.49e1872c.chunk.js.map",
     "runtime-main.js": "/stocktwitsapi/static/js/runtime-main.e56d4fd0.js",
@@ -8,15 +8,15 @@
     "static/js/2.e2e7b589.chunk.js": "/stocktwitsapi/static/js/2.e2e7b589.chunk.js",
     "static/js/2.e2e7b589.chunk.js.map": "/stocktwitsapi/static/js/2.e2e7b589.chunk.js.map",
     "index.html": "/stocktwitsapi/index.html",
-    "precache-manifest.c6988900c97d2a992760e82553247ee6.js": "/stocktwitsapi/precache-manifest.c6988900c97d2a992760e82553247ee6.js",
+    "precache-manifest.459c6175da1a063e6251dd34dbf21863.js": "/stocktwitsapi/precache-manifest.459c6175da1a063e6251dd34dbf21863.js",
     "service-worker.js": "/stocktwitsapi/service-worker.js",
-    "static/css/main.cddd883a.chunk.css.map": "/stocktwitsapi/static/css/main.cddd883a.chunk.css.map",
+    "static/css/main.34b5f1b8.chunk.css.map": "/stocktwitsapi/static/css/main.34b5f1b8.chunk.css.map",
     "static/js/2.e2e7b589.chunk.js.LICENSE.txt": "/stocktwitsapi/static/js/2.e2e7b589.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.e56d4fd0.js",
     "static/js/2.e2e7b589.chunk.js",
-    "static/css/main.cddd883a.chunk.css",
+    "static/css/main.34b5f1b8.chunk.css",
     "static/js/main.49e1872c.chunk.js"
   ]
 }
