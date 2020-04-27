@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
 }
 
 .app-header .MuiAppBar-colorPrimary {
@@ -10,4 +11,68 @@
   align-items: center;
   justify-content: center;
   color: white;
+}
+
+.app-main .search {
+  margin-bottom: 20px;
+}
+
+.app-main .search .stock-input {
+  margin: 5px;
+}
+
+.app-main .search .search-button {
+  background-color: #40576F;
+  color: white;
+  margin: 5px;
+}
+
+.app-main .chips .MuiBadge-badge {
+  color: #40576F;
+}
+
+.app-main .chips .chip {
+  background-color: #40576F;
+  color: white;
+  margin: 10px;
+}
+
+.app-main .tweets {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.app-main .tweets .card {
+  border-radius: 0;
+  text-align: left;
+}
+
+.app-main .tweets .card .MuiCardContent-root {
+  display: grid;
+  grid-template-areas: 
+    'picture namearea'
+    'picture text';
+  grid-template-columns: 10% 90%;
+}
+
+.app-main .tweets .picture {
+  grid-area: picture;
+  display: grid;
+  justify-content: center;
+}
+
+.app-main .tweets .namearea {
+  grid-area: namearea;
+}
+
+.app-main .tweets .name {
+  font-weight: bold;
+}
+
+.app-main .tweets .username {
+  color: rgb(101, 119, 134);
+}
+
+.app-main .tweets .text {
+  grid-area: text;
 }
